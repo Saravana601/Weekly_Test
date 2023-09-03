@@ -1,5 +1,5 @@
 # Weekly_Test
-# Assignment: Nationalize.io API Integration
+# Assignment: Nationality Prediction using the Nationalize.io API
 
 ## Description
 This assignment involves using Java to make an API call to [Nationalize.io](https://api.nationalize.io/) and predict the probable nationality associated with a given name. The API will return JSON data with nationality probabilities based on the provided name.
@@ -13,15 +13,8 @@ This assignment involves using Java to make an API call to [Nationalize.io](http
 ## Code Explanation
 The `Main.java` file contains the Java code to call the API, process the response, and display the JSON data.
 
-## Output
-![Image 1](CallingApi-03.png)
-![Image 2](CallingApi-04.png)
-
-
-The screenshot above shows the JSON response from the Nationalize.io API.
-
 ## Video Demo
-[Watch the Video Demo](https://youtu.be/your-video-link)
+[Watch the Video Demo](https://youtu.be/hzV7bP9xbcI)
 
 ## Author
-Your Name
+Saravanan D
