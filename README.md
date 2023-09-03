@@ -14,7 +14,9 @@ This assignment involves using Java to make an API call to [Nationalize.io](http
 The `Main.java` file contains the Java code to call the API, process the response, and display the JSON data.
 
 ## Output
-![API Response](D:\Studies\M4-Assignments\CallingApi-03.png)
+![Image 1](CallingApi-03.png)
+![Image 2](CallingApi-04.png)
+
 
 The screenshot above shows the JSON response from the Nationalize.io API.
 
