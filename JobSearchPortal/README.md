@@ -1,6 +1,19 @@
-# Job Search Portal
+# <p align ="center"> Job Search Portal </p>
 
-A web application for job seekers and employers to post, search, and manage job listings.
+<p align="center">
+<a href="Java url">
+    <img alt="Java" src="https://img.shields.io/badge/Java->=8-purple.svg" />
+</a>
+<a href="Maven url" >
+    <img alt="Maven" src="https://img.shields.io/badge/maven-3.0.5-blue.svg" />
+</a>
+<a href="Spring Boot url" >
+    <img alt="Spring Boot" src="https://img.shields.io/badge/Spring Boot-3.1.3-yellow.svg" />
+</p>
+    
+# Project Overview
+
+The "Job Search Portal" is a web application designed to serve as a comprehensive platform for job seekers and employers. It offers a range of features that facilitate the job search and job posting processes. This project is structured around the Spring Boot framework, Java programming language, and employs the Jakarta Persistence (JPA) for data management. Here's an overview of the key components and functionalities:
 
 ## Frameworks and Languages Used
 
@@ -63,3 +76,8 @@ To get started with this project:
 2. Configure your H2 database settings in the application properties.
 3. Build and run the application.
 
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your improvements.
+
+## Contact
+If you have any questions or suggestions, feel free to contact me at [Gmail](saravanad2401@gmail.com).
