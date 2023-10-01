@@ -23,6 +23,7 @@ public class ProductController {
         return productService.getProductsByCategory(category);
     }
 
+    @DeleteMapping("product/{productID}")
     public String deleteProductByID(@PathVariable Integer productID){
         return productService.deleteProductByID(productID);
     }
