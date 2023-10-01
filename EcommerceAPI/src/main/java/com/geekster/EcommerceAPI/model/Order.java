@@ -2,6 +2,7 @@ package com.geekster.EcommerceAPI.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "`order`")
+@Table(name = "orders")
 public class Order {
     @Id
     private Integer orderID;
@@ -27,6 +28,6 @@ public class Order {
     @JoinColumn(name = "addressID")
     private Address address;
 
-    @NotBlank(message = "Product Quantity Required")
+    @NotNull(message = "Product Quantity must not null")
     private Integer productQuantity;
 }
