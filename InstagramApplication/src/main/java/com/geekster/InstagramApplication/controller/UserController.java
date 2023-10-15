@@ -21,7 +21,7 @@ public class UserController {
     }
 
     @PostMapping("signIn")
-    public String userSignIn(SignInInput signIn){
+    public String userSignIn(@RequestBody SignInInput signIn){
         return userService.userSignIn(signIn);
     }
 
