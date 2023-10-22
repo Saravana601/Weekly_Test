@@ -1,4 +1,4 @@
-package com.geekster.ExpenseTrackerAPI.controller.dto;
+package com.geekster.ExpenseTrackerAPI.model.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

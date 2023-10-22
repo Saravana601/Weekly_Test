@@ -1,6 +1,6 @@
 package com.geekster.ExpenseTrackerAPI.controller;
 
-import com.geekster.ExpenseTrackerAPI.controller.dto.SignInDto;
+import com.geekster.ExpenseTrackerAPI.model.dto.SignInDto;
 import com.geekster.ExpenseTrackerAPI.model.Expense;
 import com.geekster.ExpenseTrackerAPI.model.User;
 import com.geekster.ExpenseTrackerAPI.service.AuthenticationService;
