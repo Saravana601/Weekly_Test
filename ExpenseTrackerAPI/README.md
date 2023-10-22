@@ -43,7 +43,7 @@ The database schema includes the following tables:
 - **User Table:** Stores user information, including username, email, and password.
 - **Authentication Table:** Stores authentication tokens for user sessions.
 
-## Data Structures Used in Your Project
+## Data Structures Used
 
 - **Entity Classes:** Java objects like User and Expense are used to represent data in the application.
 
